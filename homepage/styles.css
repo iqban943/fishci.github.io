@@ -1,0 +1,17 @@
+.special {
+    color: #FFB6C1;
+    font-size: 70;
+    font-weight: bold;
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+h2 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 30;
+    
+}
+ul {
+    font-family: Futura, Arial, sans-serif;
+    font-size: 15;
+}
