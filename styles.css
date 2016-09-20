@@ -1,47 +1,17 @@
-body{
-    background-color:be1e2d;
-    background-image:url("images/asfalt-light.png");
+.special {
+    color: #FFB6C1;
+    font-size: 70;
+    font-weight: bold;
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
-h2{
-    font-size: 24px;
-    color:blue;
+h2 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 30;
+    
 }
-
-a{
-    text-decoration:none;
-    color:white;
-}
-
-.mainlink{
-    padding:10;
-    text-transform:uppercase;
-    text-decoration: none;
-    letter-spacing:2px;
-    opacity:.5;
-}
-
-.mainlink:hover{
-    padding:20;
-    opacity:1;
-    transition: .5s ease-in-out;
-    text-decoration: none;
-}
-
-.subtitle{
-    font-size:18;
-    font-family:avenir,helvetica,sans-serif;
-    text-transform:uppercase;
-    color:white;
-    letter-spacing:4px;
-    font-weight:bold;
-}
-
-img{
-    padding:30px;
-}
-
-p{
-    color:white;
-    font-family:avenir,helvetica,sans-serif;
+ul {
+    font-family: Futura, Arial, sans-serif;
+    font-size: 15;
 }
