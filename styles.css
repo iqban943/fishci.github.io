@@ -1,17 +1,31 @@
+body {
+    background-image: url(background.jpg);
+    background-color: #cccccc;
+}
 .special {
-    color: #FFB6C1;
-    font-size: 70;
+    font-size: 20;
     font-weight: bold;
-    text-align: center;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: Avenir, Helvetica, sans-serif;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+a {
+color: black;
+transition: all 0.2s linear;
+}
+a:hover, a:focus {
+color: #ffafdf;
+text-decoration: none
+}
+p {
+    font-family: Avenir;
+    text-transform: uppercase;
+    letter-spacing: 4px;
 }
 
-h2 {
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 30;
-    
-}
-ul {
-    font-family: Futura, Arial, sans-serif;
-    font-size: 15;
-}
