@@ -19,7 +19,6 @@ body {
 	display: inline-block;
 	width: 6px;
 	height: 6px;
-	display: block;
 	background: transparent;
 	box-shadow:
 	54px 156px #000000,66px 156px #000000,60px 156px #000000,72px 156px #000000,84px 156px #000000,
@@ -79,14 +78,18 @@ body {
 	114px 84px #000000,114px 96px #000000,114px 102px #000000,114px 108px #000000,114px 90px #000000;
 }
 a {
-color: black;
-transition: all 0.2s linear;
-font-family: Futura, Helvetica, sans-serif;
-text-decoration: none;
-font-size: 24px;
+	color: black;
+	transition: all 0.2s linear;
+	font-family: Futura, Helvetica, sans-serif;
+	text-decoration: none;
+	font-size: 24px;
 }
 
 a:hover  {
-text-decoration: none;
-font-size: 28px;
+	text-decoration: none;
+	font-size: 28px;
+}
+
+.div2 {
+	display: inline-block;	
 }

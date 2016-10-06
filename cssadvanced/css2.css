@@ -1,0 +1,42 @@
+.button {
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	background-image: url(Circles.png)
+}
+.button:hover {
+	background-position: -200px 0;
+}
+.button2 {
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	background-image: url(Circles.png)
+}
+.button2:hover {
+	background-position: -400px 0;
+}
+.button3 {
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	background-image: url(Circles.png)
+}
+.button3:hover {
+	background-position: -600px 0;
+}
+.button4 {
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	background-image: url(Circles.png)
+}
+.button4:hover {
+	background-position: -800px 0;
+}
+.button0 {
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	background-image: url(Circles.png)
+}
