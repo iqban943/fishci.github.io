@@ -32,7 +32,7 @@ p {
     border-radius: 100%;
     position: relative;
     animation-name: myclock;
-    animation-duration: 2s;
+    animation-duration: 10s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
@@ -60,6 +60,6 @@ p {
         transform: rotate(0deg);
     }
     to {
-        transform: rotate (360deg);
+        transform: rotate(360deg);
     }
 }

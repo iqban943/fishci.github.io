@@ -38,5 +38,8 @@
 	display: inline-block;
 	width: 200px;
 	height: 200px;
-	background-image: url(Circles.png)
+	background-image: url(button0.png)
+}
+.button0:hover {
+	background-position: -200px 0;
 }
