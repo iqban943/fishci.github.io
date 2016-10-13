@@ -1,0 +1,22 @@
+body {
+    background-image: url(fur.jpg);
+}
+p {
+    font-family: Avenir, sans-serif;
+    color: white;
+    font-size: 24px;
+}
+h1 {
+    font-family: Helvetica;
+    color: white;
+    font-size: 72px;
+}
+div {
+    width: 500px;
+}
+.play {
+    display: inline-block;
+    background-image: url(play.jpg);
+    width: 150px;
+    height: 100px;
+}

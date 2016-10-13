@@ -1,0 +1,118 @@
+body {
+    cursor: url(b.cur), auto;
+}
+.clock {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    position: relative;
+    display: inline-block;
+    animation-name: myclock;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.clock1 {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    position: relative;
+    display: inline-block;
+    animation-name: myclock;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.clock2 {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    position: relative;
+    display: inline-block;
+    animation-name: myclock;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.seconds {
+    width: 200px;
+    height: 6px;
+    background-color: black;
+    position: absolute;
+    top: 98px;
+}
+.seconds1 {
+    width: 100px;
+    height: 6px;
+    background-color: black;
+    position: absolute;
+    top: 98px;
+}
+@keyframes myclock { 
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+.seconds:hover {
+	background-color: red;
+}
+.seconds1:hover {
+	background-color: red;
+}
+.wall {
+    float: right;
+    width: 620px;
+    height: 780px;
+    cursor: none;
+    background-color: #abe8ec;
+}
+.wall:hover {
+    background-color: red;
+}
+.element {
+  height: 150px;
+  width: 200px;
+  background-color: #f5c0e6;
+  display: inline-block;
+  animation-name: stretch;
+  animation-duration: 1.5s; 
+  animation-timing-function: ease-out; 
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+.element:hover {
+    background-color: red;
+}
+@keyframes stretch {
+  0% {
+    transform: scale(.3);
+    border-radius: 100%;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.baby {
+	width: 200px;
+	height: 200px;
+	background-image: url(evil.png);
+	float: right;
+	margin-top: -180px;
+}
+.baby:hover {
+    background-position: -200px 0;
+}
+.baby:active {
+    background-position: -200px 0;
+}
+p {
+    font-family: Helvetica, sans-serif;
+    font-size: 40px;
+    
+}
